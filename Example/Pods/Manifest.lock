@@ -1,0 +1,16 @@
+PODS:
+  - testCTPod (0.1.0)
+
+DEPENDENCIES:
+  - testCTPod (from `../`)
+
+EXTERNAL SOURCES:
+  testCTPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  testCTPod: d35969f05fe205ba175e7de3bb09acc13f03a187
+
+PODFILE CHECKSUM: 41cf84d5f52f1db9f59402cd3e96e18cd3daef02
+
+COCOAPODS: 1.4.0

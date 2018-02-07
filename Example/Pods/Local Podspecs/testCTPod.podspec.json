@@ -1,0 +1,22 @@
+{
+  "name": "testCTPod",
+  "version": "0.1.0",
+  "summary": "CT SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cloudmobi/CloudmobiSSP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tianwenshi": "lancelot.tian@yeahmobi.com"
+  },
+  "source": {
+    "git": "https://github.com/cloudmobi/CloudmobiSSP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testCTPod/Classes/**/*"
+}

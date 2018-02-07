@@ -1,0 +1,6 @@
+framework module testCTPod {
+  umbrella header "testCTPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
