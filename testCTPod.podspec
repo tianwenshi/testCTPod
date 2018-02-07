@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/tianwenshi/testCTPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '7.0'
-  s.vendored_frameworks = 'testCTPod/Classes/CTSDK.framework'
+  #s.vendored_frameworks = 'testCTPod/Classes/CTSDK.framework'
   s.source_files = 'testCTPod/Classes/**/*'
   
   # s.resource_bundles = {
