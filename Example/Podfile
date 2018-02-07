@@ -1,0 +1,6 @@
+use_frameworks!
+target 'testCTPod_Tests' do
+  pod 'testCTPod', :path => '../'
+  
+  
+end
