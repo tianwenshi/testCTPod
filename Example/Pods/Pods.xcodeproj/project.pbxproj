@@ -13,7 +13,7 @@
 		493501B2B8F12655505B682FA801CECC /* testCTPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C38CC499E828CC939E47518A3C34E /* testCTPod-dummy.m */; };
 		5974A81476BD36A66581E2D86CD638AC /* Pods-testCTPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6C014CBC3DC311281A8C7A766CA079 /* Pods-testCTPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC3269FFCF34D1910B7B57E82F16CF0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C79DE635202AF21700CA1D32 /* CTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79DE634202AF21700CA1D32 /* CTSDK.framework */; };
+		C7B1A66E202B086700286AD7 /* CTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B1A66D202B086700286AD7 /* CTSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A99C38CC499E828CC939E47518A3C34E /* testCTPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "testCTPod-dummy.m"; sourceTree = "<group>"; };
 		B44CB61B7E693F44D0AF5B1C8D0A9BBE /* Pods_testCTPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCTPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C79DE634202AF21700CA1D32 /* CTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CTSDK.framework; path = ../testCTPod/Classes/CTSDK.framework; sourceTree = "<group>"; };
+		C7B1A66D202B086700286AD7 /* CTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CTSDK.framework; sourceTree = "<group>"; };
 		CBE393CFB57BF4D81796217598E74F6B /* Pods-testCTPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testCTPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7FD1C2DFD79DD45AE36160479B4A86C /* Pods-testCTPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testCTPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		E90C8957A2687195960779078BE75C31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79DE635202AF21700CA1D32 /* CTSDK.framework in Frameworks */,
+				C7B1A66E202B086700286AD7 /* CTSDK.framework in Frameworks */,
 				AC3269FFCF34D1910B7B57E82F16CF0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +130,8 @@
 		48262B709265E8CB57EB3718BBF28894 /* testCTPod */ = {
 			isa = PBXGroup;
 			children = (
-				C79DE62E202AD09100CA1D32 /* Classes */,
+				C7B1A66C202B085A00286AD7 /* Frameworks */,
+				C7B1A669202B07C900286AD7 /* Classes */,
 				304F199342F4E957364B46AABB18A572 /* Pod */,
 				5541285377A715EC2730DBB9385BA98F /* Support Files */,
 			);
@@ -171,12 +172,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C79DE62E202AD09100CA1D32 /* Classes */ = {
+		C7B1A669202B07C900286AD7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C79DE634202AF21700CA1D32 /* CTSDK.framework */,
 			);
-			path = Classes;
+			name = Classes;
+			path = testCTPod/Classes;
+			sourceTree = "<group>";
+		};
+		C7B1A66C202B085A00286AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1A66D202B086700286AD7 /* CTSDK.framework */,
+			);
+			name = Frameworks;
+			path = testCTPod/Frameworks;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
